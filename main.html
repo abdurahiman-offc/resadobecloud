@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mainpage</title>
+    <script src="indexjs.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="mainstyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="body">
+    <div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container-fluid py-2">
+                <a class="navbar-brand d-flex" href="https://creativecloud.adobe.com/">
+                    <div class="d-flex pe-2">
+                     <img src="objects/cloud-icon.png" width="24" height="24" />
+                    </div>
+                    <div>
+                        <h1 class="navbar-title text-dark" style="font-size: 1rem">
+                            Creative Cloud
+                        </h1>
+                    </div>
+                </a>
+
+                <ul class="nav-list d-flex">
+                   
+                    <li class="nav-menu-icon-1">
+                        <a href="#" class="" style="" role="button" onclick="hide1()">
+                            <span class="text-dark" style="">sign in</span>
+                        </a>
+                   
+                    </li>
+                    <li class="nav-menu-icon-2">
+                        <a href="#" class="" role="button" onclick="hide2()">
+                            <img src="objects/icon-help.svg"/>
+                        </a>
+                    <!-- <div id="#account-info" class="collapse card">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div> -->
+                    </li>
+                    <li class="nav-menu-icon-3"><a href="#" class="" role="button" onclick="hide3()"><img src="objects/apps-icon.svg" /></a></li>
+                    <li class="nav-menu-icon-4"><a href="https://www.adobe.com/?promoid=MH16SGLF&mv=other"><img src="objects/adobe-icon.svg" /></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</div>
+
+    <main>
+        <section>
+            <div id="box1" class="nav-dropdown card" style="display:none">
+                <div><a href="https://helpx.adobe.com/support.cc.html"><span class="text-dark">Get help</span></a></div>
+                <div><a href="https://www.adobe.com/go/utilitynav-community-forums-link"><span class="text-dark">Ask the community</span></a></div>
+            </div>
+            
+            <div id="box2" class="nav-dropdown2 text-center">
+                <div class="box2-title pb-5 pt-1"><span style="font-size: 10px; font-weight: bold;">WEB APPS & SERVICES</span></div>
+                <div class="box-2-body">
+                <div class="box2-cloud-app">
+                    <ul class="box2-ul" style="display:grid; grid-template-columns: 1fr 1fr 1fr">
+                        <li>
+                           <a href="https://www.adobe.com/go/utilitynav-appmenu-cc-icon-link"> 
+                            <img heigth="48" width="48" src="https://prod.adobeccstatic.com/appl/assets/creative_cloud_appicon-1pSQ5Fg.png">
+                          <span>Creative Cloud</span> </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.adobe.com/go/utilitynav-appmenu-dc-icon-link">
+                                <img height="48" width="48" src="https://prod.adobeccstatic.com/appl/assets/document_cloud_appicon-3XQfn2h.png">
+                            <span>Document Cloud</span></a> 
+                         </li>
+
+                        <li>
+                            <a href="https://www.adobe.com/go/utilitynav-appmenu-ec-icon-link">
+                                 <img height="48" width="48" src="https://prod.adobeccstatic.com/appl/assets/experience_cloud_appicon-22AkcGx.png">
+                                <span>Experience Cloud</span> </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box2-primary-app">
+                    <ul class="box2-ul" style="display:grid; grid-template-columns: 1fr 1fr 1fr">
+                        <li><a><img height="48" width="48" src="https://prod.adobeccstatic.com/appl/assets/cc_express_2x.png"><span>Adobe Express</span></a></li>
+                        <li><a><img height="48" width="48" src="https://prod.adobeccstatic.com/appl/assets/lightroom_2x-1Bvte3Y.png"><span>Lightroom</span></a></li>
+                        <li><a><img height="48" width="48" src="https://prod.adobeccstatic.com/appl/assets/ps_beta_appicons_128.png"><span>Photoshop (Beta)</span></a></li>
+                        <li><a><img height="48" width="48" src="https://prod.adobeccstatic.com/appl/assets/portfolio_2x-1N1Dojs.png"><span>Portfolio</span></a></li>
+                        <li><a><img height="48" width="48" src="https://prod.adobeccstatic.com/appl/assets/behance_2x-2SU4BVj.png"><span>Behance</span></a></li>
+                        <li><a><img height="48" width="48" src="https://prod.adobeccstatic.com/appl/assets/behance_2x-2SU4BVj.png"><span>Stock</span></a></li>
+                        <li><a><img height="48" width="48" src="https://prod.adobeccstatic.com/appl/assets/typekit_light-EtaWIYE.png"><span>Fonts</span></a></li>
+                        <li><a><img height="48" width="48" src="https://prod.adobeccstatic.com/appl/assets/adobe_sign_2x.png"><span>Adobe Acrobat Sign</span></a></li>
+                        <li><a><img height="48" width="48" src="https://prod.adobeccstatic.com/appl/assets/substance_3d_2x.png"><span>Substance 3D Assets</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+          
+
+            <div class="img-bg section-one container-fluid m-0 p-0 d-flex flex-column">
+                <div class="container-fluid d-flex justify-content-evenly h-75">
+                    <div class="section-one-sub-box container-fluid w-100 mx-0" style="margin-top: 15rem; height: 50vh">
+                        <!-- <div class=" col-xl-6  col-12 border-0 d-flex flex-column "> -->
+                        <div class="down-box d-flex flex-column">
+                            <img src="objects/cloud-icon.png" class="card-img-top mb-3" alt="cloud icon"
+                                style="width: 72px; height: 72px" />
+                            <div class="p-0 m-0">
+                                <h5 class="fs-1 fw-bold text-white pb-1">
+                                    Download Creative Cloud
+                                </h5>
+                            </div>
+                            <div>
+                                <p class="text-white p-2">
+                                    Access everything Creative Cloud has to offer, right from
+                                    your desktop.<br />
+                                    From your apps to your work and more, it’s all here.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="#sec-3" class="btn btn-primary mb-5" style="width: 200px; border-radius: 50px">Download Creative Cloud</a>
+                            </div>
+                            <div class="text-white">
+                                <p class="text-white">
+                                    To view all of your apps,
+                                </p>
+                                <a href="#" class="" style="width: 200px;"><button class="text-light fw-bold">sign in</button></a>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="section-one-img">
+                                <img class="img-fluid" src="objects/sec1.png" height="250" width="550" />
+                                <!-- style="height: 300px; width: 500px"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <!-- <article style="text-align:center; position:relative; bottom:6rem;">
+                        <a href="#sec-2"><svg viewBox="0 0 48 48" fill="rgba(255,255,255,0.7)" height="70" width="70" focusable="false" aria-hidden="true" role="img" class="spectrum-Icon spectrum-Icon--sizeXXL"><path d="M22.585 31.7L11.94 21.05a2 2 0 0 1 0-2.828l.282-.282a2.006 2.006 0 0 1 2.828 0L24 26.888l8.949-8.948a2.006 2.006 0 0 1 2.828 0l.282.282a2 2 0 0 1 0 2.828L25.414 31.7a2 2 0 0 1-2.829 0z"></path></svg>
+                        </a>
+                        </article>          -->
+            </div>
+        </section>
+         
+        <section id="sec-2" class="container" style="margin-bottom: 150px; margin-top: -6rem">
+            <div class="container p-0 m-0">
+            <div class="container d-flex flex-column">
+                <h2 class="text-dark pb-2" style="text-align: center">
+                    Easily manage your Creative Cloud apps and services
+                </h2>
+                <div class="container" style="text-align: center; width: 100%">
+                    <p>
+                        Download and install apps, share files, find fonts and Adobe Stock
+                        assets, set preferences, and more — all from the Creative Cloud
+                        desktop app. It installs automatically when you install your first
+                        Creative Cloud app.
+                    </p>
+                </div>
+            </div>
+
+            <div class=" container row" style="padding-bottom:50px;">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                    <img class="img-fluid" src="objects/img-1.png" height="150" width="550" />
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-12" style="align-self: center">
+                    <div class="card">
+                        <h2 class="card-title">Install and update apps</h2>
+                        <p class="card-text">
+                            Find, install, update, and launch all the right apps for your
+                            interests and projects in one place.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cont-2 container row" style="padding-bottom:50px;">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                    <img class="img-fluid" src="objects/img-2.png" height="150" width="550" />
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-12" style="align-self: center">
+                    <div class="card">
+                        <h2 class="card-title">Learn and discover</h2>
+                        <p class="card-text">
+                            Start with tutorials, get inspired, and connect with creatives
+                            like you from the Creative Cloud community.
+                        </p>
+                    </div>
+                </div>
+
+              
+            </div>
+
+            <div class="container row" style="padding-bottom:50px;">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                    <img class="img-fluid" src="objects/img-3.png" height="150" width="550" />
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-12" style="align-self: center">
+                    <div class="card">
+                        <h2 class="card-title">Collaborate and keep track of your work</h2>
+                        <p class="card-text">
+                            Organize and share your work with libraries and cloud documents.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cont-4 container row " style="padding-bottom:50px;">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                    <img class="img-fluid" src="objects/img-4.png" height="150" width="550" />
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12" style="align-self: center">
+                    <div class="card">
+                        <h2 class="card-title">Explore our marketplace</h2>
+                        <p class="card-text">
+                            Find and download libraries, fonts, and plugins to improve your
+                            creative workflows.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        </section>
+
+        <section id="sec-3" class="container d-flex flex-column" style="bottom: 100px">
+            <h2 class="pb-5" style="text-align: center; font-weight:bold;">
+                How to install Creative Cloud
+            </h2>
+            <div class="container pb-5" style="text-align:center;">
+                <button class="btn btn-primary" style="border-radius: 50px;">
+                    Download Creative Cloud
+                </button>
+            </div>
+            <div class="container row">
+                <div class="card col-md-6 col-lg-6 col-xl-6 col-12">
+                    <div class="d-flex justify-content-around">
+                        <div><span style="font-size:20px;font-weight:bold;border:3px solid black;padding:10px 20px 10px 20px; border-radius:50%;">1</span></div>
+                        <div style="width:70%;">
+                            <span style="font-size: 17px;">Find Creative_Cloud_Set-Up.exe in the Chrome download section
+                            (bottom of the browser), or find it where you save your
+                            downloads.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-md-6 col-lg-6 col-xl-6 col-12">
+                    <div class="d-flex justify-content-around">
+                        <div><span style="font-size:20px;font-weight:bold;border:3px solid black;padding:10px 20px 10px 20px; border-radius:50%;">2</span></div>
+                        <div style="width:70%;">
+                            <span style="font-size: 17px;">Launch the installer and follow the prompts to set up the
+                            Creative Cloud app.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="margin-top: 112px; text-align: center">
+                <span>Download not working? </span>
+                <a style="color:blue;" href="#">Restart download </a>
+                <span>or</span>
+                <span>get help</span>
+            </div>
+            <div class="container bg-light" style="width: 100%; height: 50vh"></div>
+        </section>
+
+        <div class="container d-flex flex-column align-items-center" style="margin-bottom:200px;">
+            <div>
+                <div>
+                    <span class="" style="font-size: 0.8rem; font-weight: 700; color:#6e6e6e;">Help us improve your Creative Cloud
+                        experience.</span>
+                </div>
+
+                <!-- <div class="p-0 m-0"> -->
+                <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-column">
+                    <span class="fs-5 pb-3 pe-2"> Did you find what you were looking for? </span>
+                    <div class="align-self-center">
+                        <button style="width:70px; background-color:transparent; border:2px solid #6e6e6e; border-radius:50px;">Yes</button>
+                        <button style="width:70px; background-color:transparent; border:2px solid #6e6e6e; border-radius:50px;">No</button>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot-box  mt-5">
+          <div class="top container-fluid  pt-5">
+      
+            <div class="left " style="width:30%;">
+              <div class="content d-flex flex-column ps-5">
+                <h3 class="fs-5 d-flex text-white"><svg viewBox="0 0 48 48" fill="white" width="25" height="25" focusable="false" aria-hidden="true" role="img" class="spectrum-Icon spectrum-Icon--sizeM"><path d="M20.894 14.565a11.85 11.85 0 0 1 2.077 1.076 9.861 9.861 0 1 1-.836 14.683l-5.762-5.779a1.087 1.087 0 1 0-1.558 1.516l5.791 5.809a12.036 12.036 0 1 0 .287-17.305zM6.74 25.671a9.73 9.73 0 0 0 9.733 9.729h5.084a14.25 14.25 0 0 1-2.675-2.168h-2.409a7.561 7.561 0 0 1 0-15.123 7.2 7.2 0 0 1 4.96 1.855l4.378 4.493a1.087 1.087 0 1 0 1.557-1.517l-4.38-4.5a9.414 9.414 0 0 0-6.522-2.508 9.725 9.725 0 0 0-9.726 9.731z"></path><path d="M29.11 8.32a15.037 15.037 0 0 1 2.5 29.864s-2.014.216-3.657.216H16.474a12.733 12.733 0 0 1-.007-25.465 13.218 13.218 0 0 1 1.667.1l.711-.665A14.975 14.975 0 0 1 29.11 8.32zm0-1.6a16.568 16.568 0 0 0-11.358 4.486l-.181.169a14.995 14.995 0 0 0-1.1-.041A14.333 14.333 0 0 0 16.474 40h11.477c1.709 0 3.742-.216 3.828-.225A16.635 16.635 0 0 0 29.11 6.72z"></path></svg>Creative Cloud</h3>
+                <div><span style="color:rgba(255,255,255,0.5);">select your preferred language</span></div>
+                <div class="dropdown">
+                  <button class="footer-btn btn btn-primary fs-6" style="width:100px;" aria-labelledby="language-picker-title" tabindex="0" id="react-spectrum-2-trigger" aria-haspopup="true" class="spectrum-Button spectrum-Button--primary language-picker-link">English<svg viewBox="0 0 36 36" heigth="20" width="20" focusable="false" aria-hidden="true" role="img" class="spectrum-Icon spectrum-Icon--sizeS"><path d="M8 14.02a2 2 0 0 1 3.411-1.411l6.578 6.572 6.578-6.572a2 2 0 0 1 2.874 2.773l-.049.049-7.992 7.984a2 2 0 0 1-2.825 0l-7.989-7.983A1.989 1.989 0 0 1 8 14.02z"></path></svg>
+                </button>
+              </div>
+              <div class="social-media-icons d-inline-flex pt-4">
+              <div data-subtype="twitter" tabindex="0"><svg viewBox="0 0 48 48" fill="rgba(255,255,255,0.5)" width="25" height="25" focusable="false" aria-hidden="true" role="img" class="spectrum-Icon spectrum-Icon--sizeM"><path d="M46.075 10.392a18.046 18.046 0 0 1-5.185 1.421 9.053 9.053 0 0 0 3.97-4.994 18.074 18.074 0 0 1-5.732 2.191 9.036 9.036 0 0 0-15.383 8.233A25.628 25.628 0 0 1 5.138 7.811a9.037 9.037 0 0 0 2.794 12.052 8.99 8.99 0 0 1-4.089-1.129v.113a9.033 9.033 0 0 0 7.241 8.853 9.05 9.05 0 0 1-4.077.155 9.036 9.036 0 0 0 8.433 6.269 18.113 18.113 0 0 1-11.211 3.863 18.376 18.376 0 0 1-2.153-.126 25.551 25.551 0 0 0 13.838 4.056c16.6 0 25.684-13.755 25.684-25.684q0-.587-.026-1.168a18.346 18.346 0 0 0 4.503-4.673z"></path></svg></div>
+              <div data-subtype="instagram" tabindex="0"><svg viewBox="0 0 48 48" fill="rgba(255,255,255,0.5)" width="25" height="25" focusable="false" aria-hidden="true" role="img" class="spectrum-Icon spectrum-Icon--sizeM"><path d="M32.082 7.72a11.067 11.067 0 0 1 3.714.689 6.623 6.623 0 0 1 3.8 3.8 11.067 11.067 0 0 1 .689 3.714c.1 2.109.117 2.741.117 8.082s-.02 5.973-.117 8.082a11.067 11.067 0 0 1-.689 3.714 6.623 6.623 0 0 1-3.8 3.8 11.067 11.067 0 0 1-3.714.689c-2.109.1-2.741.117-8.082.117s-5.973-.02-8.082-.117a11.067 11.067 0 0 1-3.714-.689 6.623 6.623 0 0 1-3.8-3.8 11.067 11.067 0 0 1-.689-3.714C7.624 29.973 7.6 29.34 7.6 24s.02-5.973.117-8.082a11.067 11.067 0 0 1 .692-3.718 6.623 6.623 0 0 1 3.8-3.8 11.067 11.067 0 0 1 3.714-.689C18.027 7.624 18.66 7.6 24 7.6zM24 4c-5.432 0-6.113.023-8.246.12a14.68 14.68 0 0 0-4.855.93A10.227 10.227 0 0 0 5.05 10.9a14.68 14.68 0 0 0-.93 4.855C4.023 17.887 4 18.568 4 24s.023 6.113.12 8.246a14.68 14.68 0 0 0 .93 4.854 10.227 10.227 0 0 0 5.85 5.85 14.68 14.68 0 0 0 4.855.93c2.133.1 2.814.12 8.246.12s6.113-.023 8.246-.12a14.68 14.68 0 0 0 4.855-.93 10.227 10.227 0 0 0 5.848-5.85 14.68 14.68 0 0 0 .93-4.855c.1-2.133.12-2.814.12-8.246s-.023-6.113-.12-8.246a14.68 14.68 0 0 0-.93-4.855A10.227 10.227 0 0 0 37.1 5.05a14.68 14.68 0 0 0-4.855-.93C30.113 4.023 29.432 4 24 4z"></path><path d="M24 13.73A10.27 10.27 0 1 0 34.27 24 10.27 10.27 0 0 0 24 13.73zm0 16.937A6.667 6.667 0 1 1 30.667 24 6.667 6.667 0 0 1 24 30.667z"></path><circle cx="34.676" cy="13.324" r="2.4"></circle></svg>
+              </div>
+            </div>
+              </div>
+            </div>
+      
+            <div class="right">
+              <div class="d-flex flex-column" style="justify-content:inherit; font-size:13px; font-weight:700;">
+                <h3 class="fs-6 text-light">Learn and support</h3>
+                <a class="text-white" data-subtype="help-center" role="link" tabindex="0" rel="noopener noreferrer">Help Center</a>
+                <a class="text-white" data-subtype="support-community" role="link" tabindex="0" rel="noopener noreferrer">Support Community</a>
+                <a class="text-white" data-subtype="enterprise-support" role="link" tabindex="0" rel="noopener noreferrer">Enterprise support</a>
+                <a class="text-white" data-subtype="download-and-install" role="link" tabindex="0" rel="noopener noreferrer">Download and install</a>
+              </div>
+      
+              <div class="d-flex flex-column" style="justify-content:inherit;font-size:13px; font-weight:700;">
+                <h3 class="fs-6 text-light">Get Creative Cloud</h3>
+                <a class="text-white" data-subtype="desktop-app" role="link" tabindex="0" rel="noopener noreferrer">Desktop app</a>
+                <a class="text-white" data-subtype="ios-app" role="link" tabindex="0" rel="noopener noreferrer">iOS app</a>
+                <a class="text-white" data-subtype="android-app" role="link" tabindex="0" rel="noopener noreferrer">Android app</a>
+                <a class="text-white" data-subtype="web-app" target="_self" tabindex="0" rel="noopener noreferrer">Web app</a>
+              </div>
+      
+              <div class="d-flex flex-column" style="justify-content:inherit;font-size:13px; font-weight:700;">
+                <h3 class="fs-6 text-light">More</h3>
+                <a class="text-white" data-subtype="whats-new" role="link" tabindex="0" rel="noopener noreferrer">What's new</a>
+                <a class="text-white" data-subtype="faq" role="link" tabindex="0" rel="noopener noreferrer">FAQs</a>
+                <a class="text-white" data-subtype="plans-and-pricing" role="link" tabindex="0" rel="noopener noreferrer">Plans and pricing</a>
+                <a class="text-white" data-subtype="libraries" href="/en/libraries" role="link" tabindex="0" rel="noopener noreferrer">Free Libraries</a>
+              </div>
+            </div>
+        </div>
+        <hr style="display:block; width:70%; margin-right:auto; margin-left:auto;">
+      
+          <!-- <div class="container-fluid"> -->
+            <div class="footer-bottom">
+                <div class="footer-copyright"><span>©2023 Adobe. All Rights Reserved.</span></div>
+                <div><a data-subtype="terms-of-use" role="link" tabindex="0" rel="noopener noreferrer" aria-label="Terms of Use"><span>Terms of Use</span></a></div>
+                <div><a data-subtype="privacy-policy" role="link" tabindex="0" rel="noopener noreferrer" aria-label="Privacy Policy"><span>Privacy Policy</span></a></div>
+                <div><a data-subtype="cookies" role="link" tabindex="0" rel="noopener noreferrer" aria-label="Cookies"><span>Cookies</span></a></div>
+                <div>
+                    <div class="evidon-notice-link consent-link"><span tabindex="0">Cookie Preferences</span><div class="consent-link-hidden ot-sdk-show-settings"></div>
+            </div>
+        </div>
+            <div><a data-subtype="do-not-sell" role="link" tabindex="0" rel="noopener noreferrer" aria-label="Do not sell my personal information"><span>Do not sell my personal information</span></a></div>
+        </div>
+         
+        </div>
+      </footer>
+
+
+      <script src="indexjs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script> -->
+</body>
+
+</html>
